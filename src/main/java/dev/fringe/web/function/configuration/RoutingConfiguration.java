@@ -1,4 +1,5 @@
-package org.springframework.samples.web.reactive.function.configuration;
+
+package dev.fringe.web.function.configuration;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
@@ -13,11 +14,12 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
-import org.springframework.samples.web.reactive.function.handler.PersonHandler;
-import org.springframework.samples.web.reactive.function.repository.DummyPersonRepository;
-import org.springframework.samples.web.reactive.function.repository.PersonRepository;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
+
+import dev.fringe.web.function.handler.PersonHandler;
+import dev.fringe.web.function.repository.DummyPersonRepository;
+import dev.fringe.web.function.repository.PersonRepository;
 
 @Configuration
 public class RoutingConfiguration {

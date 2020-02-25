@@ -4,7 +4,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.springframework.samples</groupId>
+	<groupId>dev.fringe</groupId>
 	<artifactId>web-function</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
@@ -36,7 +36,7 @@
 		      <configuration>
 			    <appName>web-function</appName>
 		        <processTypes>
-		          <web>java $JAVA_OPTS -cp target/classes:target/dependency/* org.springframework.samples.web.reactive.function.Server</web>
+		          <web>java $JAVA_OPTS -cp target/classes:target/dependency/* dev.fringe.web.function.Server</web>
 		        </processTypes>
 		      </configuration>
 		    </plugin>			
@@ -44,11 +44,11 @@
 	</build>
 
 	<dependencies>
-<!-- 		<dependency> -->
-<!-- 		    <groupId>io.projectreactor.netty</groupId> -->
-<!-- 		    <artifactId>reactor-netty</artifactId> -->
-<!-- 		    <version>0.9.4.RELEASE</version> -->
-<!-- 		</dependency>	 -->
+		<dependency>
+		    <groupId>io.projectreactor.netty</groupId>
+		    <artifactId>reactor-netty</artifactId>
+		    <version>0.9.4.RELEASE</version>
+		</dependency>	
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>

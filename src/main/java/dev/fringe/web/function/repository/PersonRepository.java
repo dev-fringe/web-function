@@ -1,7 +1,6 @@
-package org.springframework.samples.web.reactive.function.repository;
+package dev.fringe.web.function.repository;
 
-import org.springframework.samples.web.reactive.function.domain.Person;
-
+import dev.fringe.web.function.domain.Person;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

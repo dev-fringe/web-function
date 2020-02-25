@@ -1,4 +1,4 @@
-package org.springframework.samples.web.reactive.function.handler;
+package dev.fringe.web.function.handler;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -6,11 +6,11 @@ import reactor.core.publisher.Mono;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
+import dev.fringe.web.function.domain.Person;
+import dev.fringe.web.function.repository.PersonRepository;
+
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.BodyInserters.fromObject;
-
-import org.springframework.samples.web.reactive.function.domain.Person;
-import org.springframework.samples.web.reactive.function.repository.PersonRepository;
 
 public class PersonHandler {
 

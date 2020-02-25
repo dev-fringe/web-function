@@ -1,4 +1,4 @@
-package org.springframework.samples.web.reactive.function.domain;
+package dev.fringe.web.function.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

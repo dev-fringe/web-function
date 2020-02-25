@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* org.springframework.samples.web.reactive.function.Server
+web: java -cp target/classes:target/dependency/* dev.fringe.web.function.Server

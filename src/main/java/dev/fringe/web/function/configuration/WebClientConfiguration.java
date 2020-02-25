@@ -1,4 +1,4 @@
-package org.springframework.samples.web.reactive.function.configuration;
+package dev.fringe.web.function.configuration;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;

@@ -1,16 +1,17 @@
-package org.springframework.samples.web.reactive.function.test;
+package dev.fringe.web.function.test;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.samples.web.reactive.function.configuration.RoutingConfiguration;
-import org.springframework.samples.web.reactive.function.domain.Person;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.web.reactive.function.server.RouterFunction;
+
+import dev.fringe.web.function.configuration.RoutingConfiguration;
+import dev.fringe.web.function.domain.Person;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {RoutingConfiguration.class})
