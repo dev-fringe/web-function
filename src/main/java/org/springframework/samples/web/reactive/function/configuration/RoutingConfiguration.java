@@ -19,9 +19,6 @@ import org.springframework.samples.web.reactive.function.repository.PersonReposi
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
-/**
- * @author Arjen Poutsma
- */
 @Configuration
 public class RoutingConfiguration {
 
